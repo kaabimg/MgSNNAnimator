@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>circle.png</file>
+        <file>normal_map.png</file>
+        <file>leather_texture.png</file>
+        <file>circle2.png</file>
+    </qresource>
+</RCC>

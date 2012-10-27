@@ -1,0 +1,12 @@
+I- Dependent libraries:
+- MgLibrary
+
+
+II-Project variables 
+	Modify MGLIBRARY_DIR in MgSNNAnimator.pro:
+   
+III-Install
+    path/to/qt/bin/qmake
+    make
+   
+     	

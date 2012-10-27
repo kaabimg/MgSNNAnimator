@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>neuron/neuron.fsh</file>
+        <file>neuron/neuron.vsh</file>
+        <file>synapse/synapse.fsh</file>
+        <file>synapse/synapse.vsh</file>
+        <file>neuronspikeeffect/neuronspikeeffect.fsh</file>
+        <file>neuronspikeeffect/neuronspikeeffect.vsh</file>
+        <file>curve/curveborder.fsh</file>
+        <file>curve/curveborder.vsh</file>
+        <file>curve/curvedraw.fsh</file>
+        <file>curve/curvedraw.vsh</file>
+        <file>neuronspikeeffect/spikeeffect.fsh</file>
+        <file>neuronspikeeffect/spikeeffect.vsh</file>
+        <file>filters/spikepassfilter.fsh</file>
+        <file>filters/spikepassfilter.vsh</file>
+        <file>neuronspikeeffect/spikecircle.fsh</file>
+        <file>neuronspikeeffect/spikecircle.vsh</file>
+        <file>blend/spikesglowblend.fsh</file>
+        <file>blend/spikesglowblend.vsh</file>
+    </qresource>
+</RCC>

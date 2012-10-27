@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>example1.js</file>
+        <file>example2.js</file>
+        <file>example3.js</file>
+        <file>example4.js</file>
+        <file>overview.js</file>
+    </qresource>
+</RCC>

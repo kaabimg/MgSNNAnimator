@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>graph.png</file>
+        <file>home.png</file>
+        <file>documentation.png</file>
+        <file>javascript-logo.png</file>
+        <file>exec.png</file>
+    </qresource>
+</RCC>
