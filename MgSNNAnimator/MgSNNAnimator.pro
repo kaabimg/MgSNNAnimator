@@ -1,4 +1,4 @@
-MGLIBRARY_DIR = /home/ghaith/git/MgLibraryRepository/Mg
+MGLIBRARY_DIR = /home/ghaith/git/MgLibraryRepository/MgLibraryRepository/Mg
 TEMPLATE = app
 TARGET = MgSNNAnimator
 QT += core \

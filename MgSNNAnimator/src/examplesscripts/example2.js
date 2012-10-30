@@ -4,6 +4,7 @@
  Finally, spikes times will be added. 
  */
 
+network.clear();
 
 // Creating neurons
 var layer_width = 5; // 25 neurons by layer

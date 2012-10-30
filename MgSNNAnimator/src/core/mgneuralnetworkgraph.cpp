@@ -169,17 +169,14 @@ void MgSpikingNeuralNetwork::addNeuronsGrid(
 
 void MgSpikingNeuralNetwork::clear()
 {
-
 	foreach(uint id, m_neurons.keys())
 		removeNeuron(id);
-
 	foreach(const SynapseId & id,m_synapsesById.keys())
 		removeSynapse(id.first,id.second);
 	m_synapsesBySource.clear();
 	m_spikes.clear();
 	m_activeSpikesPositions.clear();
 }
-
 
 void MgSpikingNeuralNetwork::addSpike(double time,uint source)
 {
@@ -261,13 +258,9 @@ void MgSpikingNeuralNetwork::update(double t)
 			else
 				m_neurons[synapses[synapse]->to()->id()]->setLastReceivedSpike(
 					m_spikes[spike].first + synapses[synapse]->deley());
-
 		}
 	}
-
-
 	Q_EMIT updateFinished(t);
-
 }
 void  MgSpikingNeuralNetwork::resetState()
 {

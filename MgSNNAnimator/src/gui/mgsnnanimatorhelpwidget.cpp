@@ -144,7 +144,7 @@ void MgSNNAnimatorHelpWidget::createExamplesList()
 
 	page.id = "tut2";
 	page.title = "Tutorial 1";
-	page.text = "Creating an graph, adding spikes and saving data";
+	page.text = "Getting started : a simple network";
 	page.jsCode =  readFileContent(":/example1.js");
 	createExampleHelpPage(page);
 
@@ -162,12 +162,12 @@ void MgSNNAnimatorHelpWidget::createExamplesList()
 	page.jsCode =  readFileContent(":/example3.js");
 	createExampleHelpPage(page);
 
-
-	page.id = "tut5";
-	page.title = "Tutorial 4";
-	page.text = "Running an animation, and creating custom camera animations";
-	page.jsCode =  readFileContent(":/example4.js");
-	createExampleHelpPage(page);
+//  TODO complete the animation tutorial
+//	page.id = "tut5";
+//	page.title = "Tutorial 4";
+//	page.text = "Running an animation, and creating custom camera animations";
+//	page.jsCode =  readFileContent(":/example4.js");
+//	createExampleHelpPage(page);
 }
 
 void MgSNNAnimatorHelpWidget::slideToJsEditor(const QString & id)
