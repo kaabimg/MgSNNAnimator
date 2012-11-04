@@ -4,7 +4,7 @@ TARGET = MgSNNAnimator
 QT += core \
     gui \
     opengl \
-    webkit
+    webkit     
 MG += mg_core \
     mg_gui \
     mg_3d \
